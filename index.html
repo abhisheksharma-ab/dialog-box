@@ -1,0 +1,24 @@
+<html>
+<body>
+<h2>Javascript Box2</h2>
+<button onclick="funct1()">
+click here
+</button>
+<p id="demo"></p>
+<script>
+function funct1()
+{
+var txt;
+if(confirm("Press a button"))
+{
+txt="You Pressed OK!";
+}
+else
+{
+txt="You Pressed Cancel";
+}
+document.getElementById("demo").innerHTML=txt;
+}
+</script>
+</body>
+</html>
